@@ -16,7 +16,7 @@ will return (Result2 false) which mean the second semver provided to the functio
 
 console.log("Result2", determinePrecedence("31.40.11", "35.40.00"))
 
-### Example 3:
+### Example Three:
 will return (Result3 Version String not valid, Contain Lead Zero) which mean the semver provided is not valid because one or both of them contains lead zeros
 
 console.log("Result3", determinePrecedence("31.40.11", "03.40.00"))
