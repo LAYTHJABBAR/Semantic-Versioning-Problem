@@ -6,12 +6,12 @@ run the determinePrecedence.js file with node or any js engine
 ### Three examples passed to the function as bellow
 
 
-### Example one:
+### Example One:
 will return (Result1 true) which mean first semver provided to the function has a higher precedence than the second semver provided
 
 console.log("Result1", determinePrecedence("31.40.11-alpha", "3.40.00-alpha"))
 
-### Example two:
+### Example Two:
 will return (Result2 false) which mean the second semver provided to the function has a higher precedence than the first semver provided
 
 console.log("Result2", determinePrecedence("31.40.11", "35.40.00"))
